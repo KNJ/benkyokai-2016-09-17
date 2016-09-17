@@ -9,7 +9,7 @@ $pdo->query("CREATE TABLE users(id integer, name text)");
 $pdo->query("INSERT INTO users VALUES (1, 'Alice')");
 $pdo->query("INSERT INTO users VALUES (2, 'Bob')");
 
-// itemテーブル
+// itemsテーブル
 $pdo->query("CREATE TABLE items(id integer, name text)");
 $pdo->query("INSERT INTO items VALUES (1, 'mouse')");
 $pdo->query("INSERT INTO items VALUES (2, 'keyboard')");
